@@ -1,0 +1,133 @@
+select{
+	color: #fff;
+	outline: none;
+	border: 0;
+	background-color: rgba(255,255,255,0);
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url(./img/3.jpg) no-repeat;
+	background-size: 100%;
+}
+h3{
+	font-weight: 500;
+	margin: 0;
+	color:#fff;
+	line-height: 60px;
+	font-size: 200%;
+	float: left;
+}
+input[type="radio"]{
+	display: none;
+}
+#nicheng-child{
+	float: left;
+	width: 220px;
+	height: 60px;
+	font-size: 200%;
+	border: 0;
+	background-color: rgba(255,255,255,0);
+	color: #fff;
+}
+#bottom{
+	padding: 0 10px;
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: rgba(255,255,255,0.4);
+	bottom: 0;
+}
+#nicheng{
+	height: 60px;
+	max-width: 320px;
+	float: left;
+}
+#get{
+	cursor: hand;
+	float: left;
+	margin: 0;
+	width: 60px;
+	height:60px;
+	background:url(./img/get.png);
+}
+#login{
+	position: absolute;
+	top: 150px;
+	width: 100%;
+	height:300px;
+}
+#login-mid{
+	text-align: center;
+	height: 420px;
+	width: 350px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.4);
+	transform: rotateY(0deg);
+	transition: transform 2s;
+}
+.shuru{
+	margin: 10px 50px;
+	text-align: center;
+	width: 250px;
+	height: 40px;
+	background-color: rgba(255,255,255,0);
+	border-radius: 20px;
+	font-size: 160%;
+}
+.loginimg{
+	display: inline-block;
+	padding-top: 15px;
+}
+#username{
+	background : url(./img/un.png) no-repeat;
+}
+#password{
+	background : url(./img/pw.png) no-repeat;
+}
+#nicheng-input{
+	background : url(./img/nicheng.png) no-repeat;
+}
+#return-png{
+	float: left;
+}
+.submit{
+	margin: 10px 50px;
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	background-color: rgba(255,255,255,0);
+	color: #515151;
+	border-radius: 20px;
+	font-size:170%;
+}
+#allsex{
+	position: relative;
+	left: 50px;
+	width: 250px;
+	height: 30px;
+	margin: 10px 0;
+}
+#sex{
+	line-height:30px; 
+	margin : 0 20px;
+	float: left;
+	height: 30px;
+	width: 70px;
+	color: #515151;
+	font-size: 160%;
+}
+#male{
+	float: left;
+	margin : 0 20px;
+	background : url(./img/huinan.png);
+	width: 30px;
+	height: 30px;
+}
+#female{
+	margin : 0 20px;
+	float: left;
+	background : url(./img/huinv.png);
+	width: 30px;
+	height: 30px;
+}
